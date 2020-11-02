@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="96" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+      <class name="Demo.Test4">
+        <test-method status="PASS" signature="before()[pri:0, instance:Demo.Test4@5e853265]" name="before" is-config="true" duration-ms="1" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="newTest()[pri:0, instance:Demo.Test4@5e853265]" name="newTest" duration-ms="12" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest -->
+        <test-method status="PASS" signature="newTest2()[pri:0, instance:Demo.Test4@5e853265]" name="newTest2" duration-ms="3" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTest2 -->
+      </class> <!-- Demo.Test4 -->
+      <class name="Demo.Test2">
+        <test-method status="PASS" signature="before()[pri:0, instance:Demo.Test2@6e0e048a]" name="before" is-config="true" duration-ms="36" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Aafter()[pri:0, instance:Demo.Test2@6e0e048a]" name="Aafter" is-config="true" duration-ms="2" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aafter -->
+        <test-method status="PASS" signature="Zafter()[pri:0, instance:Demo.Test2@6e0e048a]" name="Zafter" is-config="true" duration-ms="0" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zafter -->
+      </class> <!-- Demo.Test2 -->
+    </test> <!-- Sanity -->
+    <test name="Regression" duration-ms="96" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+      <class name="Demo.Test2">
+        <test-method status="PASS" signature="Abefore()[pri:0, instance:Demo.Test2@6e0e048a]" name="Abefore" is-config="true" duration-ms="1" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abefore -->
+        <test-method status="PASS" signature="Bbefore()[pri:0, instance:Demo.Test2@6e0e048a]" name="Bbefore" is-config="true" duration-ms="1" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bbefore -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:Demo.Test2@6e0e048a]" name="test3" duration-ms="15" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="Bbefore()[pri:0, instance:Demo.Test2@6e0e048a]" name="Bbefore" is-config="true" duration-ms="1" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bbefore -->
+        <test-method status="PASS" signature="Abefore()[pri:0, instance:Demo.Test2@6e0e048a]" name="Abefore" is-config="true" duration-ms="0" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Abefore -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:Demo.Test2@6e0e048a]" name="test4" duration-ms="3" started-at="2020-10-09T16:45:55 IST" finished-at="2020-10-09T16:45:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Demo.Test2 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

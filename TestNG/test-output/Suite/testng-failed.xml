@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="url" value="https://www.google.com/"/>
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="Demo.params">
+        <methods>
+          <include name="prerequisit"/>
+        </methods>
+      </class> <!-- Demo.params -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
